@@ -28,7 +28,7 @@ Alternatively you can run the following dotnet cli (which comes by default with 
 
 Check [here](xref:eisk-webapi-download-options-dotnet-new) for additional details and installtion options with dotnet CLI.
 
-## Step 3: Build & Run EISK Web Api Locally
+## Step 3: Build & Run Locally
 
 After the solution is available, simply click the created solution to open in Visual Studio. 
 
