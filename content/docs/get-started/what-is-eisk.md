@@ -28,7 +28,7 @@ There is no universal architecture which can be considered as the best for all s
 
 Employee Info Starter Kit is highly influenced by the concept ‘Pareto Principle’ or 80-20 rule, where it is targeted to enable a web developer to gain 80% productivity with 20% of effort with respect to learning curve and production.
 
-“Productivity” as the architectural objective typically also includes other trade-off factors as well as, such as testability, flexibility, performance etc. Fortunately Microsoft .NET Framework 4.0 and Visual Studio 2010 includes lots of great features that have been implemented cleverly in this project to reduce these trade-off factors in the minimum level.
+“Productivity” as the architectural objective typically also includes other trade-off factors as well as, such as testability, flexibility, performance etc. Fortunately Microsoft's latest .NET Framework Core and Visual Studio includes lots of great features that have been implemented cleverly in this project to reduce these trade-off factors in the minimum level.
 
 ### Why Employee Info Starter Kit is Not a Framework?
 
