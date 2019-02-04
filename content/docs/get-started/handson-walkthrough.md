@@ -34,8 +34,85 @@ After the solution is available, simply click the created solution to open in Vi
 
 In the solution explorer, you'll be able to see a web api project, few projects providing utility classes and tests. Right click the web api project (default name Eisk.Web) and select "Set as StartUp Project".
 
-Hit F5, to let visual studio build the solution and open the web api project in browser.
+Hit F5, to let visual studio build the solution and open the web api project output in browser.
 
+The index page of the project is basically [Swagger UI](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger), showing a web console to explore underlying web api. 
+
+EISK by default provides a simple use case to perform CRUD operation in an employee table in [Domain Driven Development](https://en.wikipedia.org/wiki/Domain-driven_design) fashion.
+
+The Swagger UI shows enables accessing the "Employees" api different http verbs (get, post, put, delete etc) and perform data operations in database encapculated with Entity Framework.
+
+Invoke the 'Get' call as available in the first options, by considering the following steps:
+
+`Get (/api/Empliyees) -> Try it out -> Execute`
+
+A json response will be shown under "Server response" section with all employees as available in database.
+
+You can perform other http verb operations by following the similar steps mentioned above.
+
+## Step 4: Creating an Api with New Use Case
+
+As you get familiar with the default use case employee, you may want to write your own api with a new use case, so see how the EISK has been designed to write web api easily with best coding and architectural guidelines.
+
+### Use Case Employee Time Sheet
+
+As an application user, I want to store employee time sheet for different projects everyday. A single time sheet entry may associate zero or one project.
+
+### Creating the Domain
+
+To support the above use case, let's create a "EmployeeTimeSheet.cs" domain under the following location: \eisk.webapi\DomainCore\Eisk.Domains\EmployeeTimeSheet.cs
+
+	using System;
+	using System.ComponentModel.DataAnnotations;
+	using System.ComponentModel.DataAnnotations.Schema;
+
+	namespace Eisk.Domains.Employee
+	{
+		public class EmployeeTimeSheet
+		{
+			[Key]
+			[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+			public int Id { get; set; }
+
+			public int EmployeeId { get; set; }
+
+			public DateTime TimeSheetDate { get; set; }
+
+			public float TimeSheetHours { get; set; }
+
+			public string ProjectCode { get; set; }
+
+		}
+	}
+
+### Add Property to Database Context
+
+Add a property as provided below in the following location: \eisk.webapi\DataServices.EFCore\Eisk.DataServices.EFCore\DataContext\AppDbContext.cs
+
+`public virtual DbSet<EmployeeTimeSheet> EmployeeTimeSheets { get; set; }`
+
+### Add Data Service Class
+
+Add a new class as provided below on the following location: \eisk.webapi\DataServices.EFCore\Eisk.DataServices.EFCore\EmployeeTimeSheetDataService.cs
+
+	using Eisk.Core.DataService.EFCore;
+	using Eisk.DataServices.EFCore.DataContext;
+	using Eisk.Domains.Employee;
+
+	namespace Eisk.DataServices.EFCore
+	{
+		public class EmployeeTimeSheetDataService : EntityContextDataService<EmployeeTimeSheet>
+		{
+			public EmployeeTimeSheetDataService(AppDbContext dbContext) : base(dbContext)
+			{
+
+			}
+		}
+	}
+	
+### Add a Domain Service Class
+	
+Add a new class as provided below on the following location: 
 
 
 
