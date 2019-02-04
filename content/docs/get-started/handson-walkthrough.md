@@ -1,29 +1,49 @@
 ---
 uid: eisk-webapi-handson-walkthrough
 ---
-
 # Hands on Walk through
 
-### Explore
+In this step by step article, you'll be creating a new web api from the scratch. With the utilities and bootstrap code as provided by EISK, you'll realize how easy to create a new web api with Visual Studio and ASP.NET Core.
 
-Once you've been able to load EISK in your visual studio and run it on your browser, you’ve the privilege to explore all cool features available here. EISK is intended to provide a way of quick learning to show how we can utilize latest technologies (Visual Studio, ASP.NET MVC, Entity Framework etc) to build some frequently used web application features, such as viewing, editing of an entity.
+This article assumes you've basic understanding with Object Oriented Programming.
 
-After you’re done exploring EISK features, get back to the EISK project in Visual Studio that you lunched. Go through the codes. Having some basic knowledge in ASP.NET MVC & C# will enable you to understand most of the codes.
+## Step 1: Check System Requirements
 
-If you have any questions about how any specific features in implemented, post your queries in the eisk discussion forum.
+To start developing a new web api, you'll need the following or upper version of Visual Studio. If you've not installed it yet, you can get a free copy of Visual Studio Community Edition from it's download site (link provided below). 
 
-### Customize
+* Visual Studio 2017 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
 
-Once you gain enough understanding about how the C# and ASP.NET MVC have been utilized effectively, you’ll want to build your own. Go ahead, start with a sample entity (for instance Customer) with some sample fields, follow the similar coding conventions in EISK and within a short while you’ll start enjoying your code containing latest technologies and coding best practices. Developing your first entity CRUD (Create, Read, Update, Delete) sample will give you more confidence to handle real world programming challenges.
+## Step 2.a: Download & Install EISK Web Api
 
-### Develop
+You can download EISK with different options and choices. Consider the following simple walk through to install EISK in your local machine with dotnet cli, which comes built-in with latest visual studio. 
 
-Congratulations!
+[dotnet cli](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) provides excellent command line options to create, build, test, deploy .net core application easily.
 
-Yes! You know how to customize EISK to include your own data and business logic! Now you can utilize this knowledge to build real life web application with best coding practices.
+To install EISK Web Api with dotnet cli, open command prompt, and type the following command:
 
-EISK can be used in fresh new projects (Green field) projects or existing projects (Brown field).
+`dotnet new -i eisk.webapi`
 
-On a Green Field project, keep the sample “Employee” entity and all other relevant classes and resources, which will allow you to develop new entities based on your software requirements with example coding sample. You can mark “Employee” and it’s relevant classes as obsolete using .NET Obsolete attribute. This will allow your C# compiler to have warning message in Visual Studio Error List window, thus you can remove sample codes over time, as your production code get matured.
+Installing template in your local machine will allow you creating as many web api projects with EISK as you want. 
 
-For a Brown field project, pick any coding sample from EISK and utilize on your project.
+## Step 2.b: Create a New Web Api Project
+
+From the command prompt, navigate to a directory, where you want to create new web api and type the following command:
+
+`dotnet new eiskwebapi -n Eisk`
+
+The 'n' paramter accepts the root namespace of the project (in the given example this is Eisk). You can consider your company name or choice of your root namespace.
+
+After the solution is created simply click the created solution to open in Visual Studio. 
+
+In the solution explorer, you'll be able to see a web api project, few projects providing utility classes and tests. Right click the web api project (default name Eisk.Web) and select "Set as StartUp Project".
+
+Hit F5, to let visual studio build the solution and open the web api project in browser.
+
+
+
+
+
+ 
+
+
+
