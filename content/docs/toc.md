@@ -4,7 +4,7 @@
 ##@eisk-webapi-logical-layers
 ##@eisk-webapi-exception-handling
 ##Testing
-###@eisk-webapi-testing-domain-service-testing-strategies
+###@eisk-webapi-testing-services
 #Technical Reference
 ##@eisk-webapi-technology-stack
 #Community Support
