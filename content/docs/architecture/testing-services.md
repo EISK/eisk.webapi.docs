@@ -1,8 +1,8 @@
 ---
-uid: eisk-webapi-testing-domain-service-testing-strategies
+uid: eisk-webapi-testing-services
 ---
 
-# Domain Service Testing Strategies
+# Testing Services
 
 Test business logic located in [domain service](xref:eisk-webapi-logical-layers) can be done with different approaches.
 

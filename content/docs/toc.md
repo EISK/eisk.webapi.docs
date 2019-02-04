@@ -2,10 +2,7 @@
 ##@eisk-webapi-what-is-eisk
 #Architecture
 ##@eisk-webapi-logical-layers
-##@eisk-webapi-exception-handling
-##Testing
-###@eisk-webapi-testing-services
 #Technical Reference
 ##@eisk-webapi-technology-stack
-#Community Support
+#Support
 ##@eisk-get-recognized
