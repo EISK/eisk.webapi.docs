@@ -10,7 +10,7 @@ documentType: index
       <strong>EISK</strong>
     </h1>
     <div class="minitext">
-        Code samples exploring new .net core features.
+        Code samples and utilities to kick start developing web api with .net core.
     </div>
     <div class="buttons-unit">
       <a href="/eisk.webapi/docs/get-started/index.html" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
@@ -24,7 +24,7 @@ documentType: index
         <i class="glyphicon glyphicon-wrench"></i>
         <section>
           <h2>Build Web Api with .NET Core</h2>
-          <p class="lead">Employee Info Starter Kit is an open source project, that provides project templates intended to address different types of real world challenges faced by web application developers.</p>
+          <p class="lead">EISK lets you creating new web api straight away without wide technical experience or learning curve - by providing an optional set of reusable utility classes, sample use cases and tools.</p>
           <div class="lead"><a href="/eisk.webapi/docs/get-started/what-is-eisk.html">What is EISK?</a></div>
         </section>
       </div>
