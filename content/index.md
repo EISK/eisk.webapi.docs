@@ -13,7 +13,7 @@ documentType: index
         Code samples exploring new .net core features.
     </div>
     <div class="buttons-unit">
-      <a href="/eisk.webapi.docs/docs/get-started/index.html" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
+      <a href="/eisk.webapi/docs/get-started/index.html" class="button"><i class="glyphicon glyphicon-send"></i>Get Started</a>
     </div>
   </div>
 </div>
@@ -25,7 +25,7 @@ documentType: index
         <section>
           <h2>Build Web Api with .NET Core</h2>
           <p class="lead">Employee Info Starter Kit is an open source project, that provides project templates intended to address different types of real world challenges faced by web application developers.</p>
-          <div class="lead"><a href="/eisk.webapi.docs/docs/get-started/what-is-eisk.html">What is EISK?</a></div>
+          <div class="lead"><a href="/eisk.webapi/docs/get-started/what-is-eisk.html">What is EISK?</a></div>
         </section>
       </div>
     </div>
@@ -35,7 +35,7 @@ documentType: index
   <div class="container">
     <div class="row">
       <div class="buttons-unit" style="padding-bottom:50px">
-        <a href="/eisk.webapi.docs/docs/get-started/index.html" class="btn btn-primary" style="font-size:2em;display:inline;padding:15px"><i class="glyphicon glyphicon-send" style="font-size:1em;padding:0 20px 0 0"></i>Get Started</a>
+        <a href="/eisk.webapi/docs/get-started" class="btn btn-primary" style="font-size:2em;display:inline;padding:15px"><i class="glyphicon glyphicon-send" style="font-size:1em;padding:0 20px 0 0"></i>Get Started</a>
       </div>
     </div>
   </div>
