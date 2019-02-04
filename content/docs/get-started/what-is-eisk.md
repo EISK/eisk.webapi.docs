@@ -32,20 +32,20 @@ Employee Info Starter Kit is highly influenced by the concept ‘Pareto Principl
 
 ### Why Employee Info Starter Kit is Not a Framework?
 
-Application frameworks are really great for productivity, some of which are really unavoidable in this modern age. However relying too many frameworks may overkill a project, as frameworks are typically designed to serve wide range of different usage and are less customizable or editable. 
+Application frameworks are great for productivity, some of which are unavoidable in this modern age. However relying too many frameworks may overkill a project, as frameworks are typically designed to serve wide range of different usage and are less customizable or editable. 
 
-On the other hand having implementation patterns can be useful for developers, as it enables them to adjust application on demand. 
+On the other hand, having implementation patterns can be useful for developers, as it enables them to adjust application on demand. 
 
-Employee Info Starter Kit provides hundreds of “connected” snippets and implementation patterns to demonstrate problem solutions in actual production environment. 
+Employee Info Starter Kit provides hundreds of “connected” snippets with optimized solution and implementation patterns to demonstrate problem solutions in actual production environment. 
 
 ### Why Employee Info Starter Kit is Different?
 
 Software development is one of the rapid growing industries around the globe, where the technology is being updated very frequently to adapt greater challenges over time. There are literally thousands of community web sites, blogs and forums that are dedicated to provide support to adapt new technologies. 
 
-While some are really great to enable learning new technologies quickly, in most cases they are either too “simple and brief” to be used in real world scenarios or too “complex and detailed” which are typically focused to achieve a product goal (such as CMS, e-Commerce etc) from "end user" perspective and have a long duration learning curve with respect to the corresponding technology. 
+While some are great to enable learning new technologies quickly, in most cases they are either too “simple and brief” to be used in real world scenarios or too “complex and detailed” which are typically focused to achieve a product goal (such as CMS, e-Commerce etc) from "end user" perspective and have a long duration learning curve with respect to the corresponding technology. 
 
 Employee Info Starter Kit, as a web project, is basically "developer" oriented which actually considers a hybrid approach as “simple and detailed”, where a simple domain has been considered to intentionally illustrate most of the architectural and implementation challenges faced by web application developers so that anyone can dive into deep into the corresponding new technology or concept quickly.
 
 ### Utilizing EISK in Real-World Software Development
 
-Learn how EISK can help developers to build robust, scalable & manageable wen applications.
+Learn how EISK can help developers to build robust, scalable & manageable web applications.
