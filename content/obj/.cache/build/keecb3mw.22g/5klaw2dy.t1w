@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Technology Stack </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Technology Stack ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="eisk-webapi-technology-stack">
+<h1 id="technology-stack" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="5">Technology Stack</h1>
+
+<h2 id="programming-language" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="7">Programming Language</h2>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="9">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="9">C# 7.0</li>
+</ul>
+<h3 id="c-features" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="11">C# Features</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="13">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="13">Lambda Expressions</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="14">Anonymous Type</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="15">Query Expressions</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="16">LINQ</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="17">Generic Type</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="18">Nullable Type</li>
+</ul>
+<h2 id="web-application-framework" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="20">Web Application Framework</h2>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="22">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="22">ASP.NET Core 2.0</li>
+</ul>
+<h3 id="aspnet-features" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="24">ASP.NET Features</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="26">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="26">ASP.NET URL Routing</li>
+</ul>
+<h2 id="apis" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="28">APIs</h2>
+<h3 id="dependency-injection" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="30">Dependency Injection</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="32">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="32">.NET Core (built-in)</li>
+</ul>
+<h3 id="data-access" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="34">Data Access</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="36">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="36">Entity Framework Core</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="37">Entity Framework Core (in-memory)</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="38">RestSharp</li>
+</ul>
+<h3 id="logging" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="40">Logging</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="42">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="42">Liblog</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="43">log4net</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="44">JSON extension for log4net</li>
+</ul>
+<h3 id="utilities" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="46">Utilities</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="48">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="48">Json parser: Newtonsoft.Json</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="49">Data mapping: AutoMapper</li>
+</ul>
+<h3 id="testing" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="51">Testing</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="53">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="53">Test framework: xUnit</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="54">Mocking: Moq</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="55">Data generation&quot; Autofixure</li>
+</ul>
+<h2 id="tools" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="57">Tools</h2>
+<h3 id="editors" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="59">Editors</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="61">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="61">Visual Studio 2017 (Community Edition)
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="62">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="62">Plugin: Resharper</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="63">Plugin: Resharper: xunit Test Support</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="64">Plugin: dotPeek (decompiler)</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="65">Plugin: Github Extension for Visual Studio</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="66">Plugin: ResolveUR</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="67">Plugin: File in Solution</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="68">Plugin: xunit Test extensions</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="69">Plugin: SecureAssist</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="70">MarkdownPad</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="71">Visual Studio Code</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="72">NotePad++
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="73">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="73">Plugin: Json Viewer</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="74">Visio</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="75">Sql Server Management Studio</li>
+</ul>
+<h3 id="inspection-utilities" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="77">Inspection Utilities</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="79">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="79">Chrome
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="80">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="80">Chrome DevTools</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="81">Plugin: Advanced RestClient</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="82">Fiddler</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="83">SQL Server Profiler</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="84">Log reader app: BareTail</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="85">File diff checker: Sourcegear DiffMerge</li>
+</ul>
+<h3 id="source-control" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="87">Source Control</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="89">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="89">Tool: Github Desktop</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="90">Tool: Tortoisegit</li>
+</ul>
+<h3 id="build--deployment" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="92">Build &amp; Deployment</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="94">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="94">Source Control
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="95">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="95">Git</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="96">Source Control Hosting
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="97">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="97">Github</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="98">Package Repository
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="99">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="99">nuget.org</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="100">Continuous Integration
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="101">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="101">Azure Pipeline (build)</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="102">Continuous Delivery
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="103">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="103">Azure Pipeline (release)</li>
+</ul>
+</li>
+</ul>
+<h2 id="platforms" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="105">Platforms</h2>
+<h3 id="development" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="107">Development</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="109">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="109">.NET Core 2.0</li>
+</ul>
+<h3 id="hosting-servers" sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="111">Hosting Servers</h3>
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="113">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="113">Web Server
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="114">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="114">Development: IIS Express</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="115">Production: IIS</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="116">Database
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="117">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="117">Development: Entity Framework Core (In memory database)</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="118">Production: Sql Server</li>
+</ul>
+</li>
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="119">Application Hosting
+<ul sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="120">
+<li sourcefile="docs/technical-reference/technology-stack.md" sourcestartlinenumber="120">Azure App Service</li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/EISK/eisk.webapi.docs/blob/master/content/docs/technical-reference/technology-stack.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

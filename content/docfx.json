@@ -1,0 +1,35 @@
+{
+  "build": {
+        "markdownEngineName": "markdig",
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md"
+                ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
+        ],		
+    "dest": "_site",
+    "template": [
+      "default",
+      "template"
+    ]
+  }
+}
