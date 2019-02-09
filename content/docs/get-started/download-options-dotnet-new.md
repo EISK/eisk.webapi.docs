@@ -25,4 +25,4 @@ The 'n' parameter accepts the root namespace of the project (in the given exampl
 
 After the solution is created simply click the created solution to open in Visual Studio. 
 
-Check the [here](xref:eisk-webapi-handson-walkthrough-create-service) to get hands on on experience with EISK Web Api. 
+Check the [here](xref:eisk-webapi-handson-walkthrough-create-service-api) to get hands on on experience with EISK Web Api. 

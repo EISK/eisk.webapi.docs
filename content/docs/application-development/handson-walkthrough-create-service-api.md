@@ -1,10 +1,12 @@
 ---
-uid: eisk-webapi-handson-walkthrough-create-service
+uid: eisk-webapi-handson-walkthrough-create-service-api
 ---
 
-# Hands-on Walk-through: Create New Service
+# Create New Service Api
 
-In this step by step article, you'll be creating a new web api from the scratch. With the utilities and bootstrap code as provided by EISK, you'll realize how easy to create a new web api with Visual Studio and ASP.NET Core.
+In this step by step article, you'll be creating a new web api from the scratch through which you can perform CRUD operation on a database entity. 
+
+With the utilities and bootstrap code as provided by EISK, you'll realize how easy to create a new web api with Visual Studio and ASP.NET Core.
 
 This article assumes you've basic understanding with Object Oriented Programming.
 
@@ -51,7 +53,7 @@ A json response will be shown under "Server response" section with all employees
 
 You can perform other http verb operations by following the similar steps mentioned above.
 
-## Step 4: Creating a New Service
+## Step 4: Creating a New Service Api
 
 As you get familiar with the default use case employee, you may want to write your own api with a new use case, so see how the EISK has been designed to write web api easily with best coding and architectural guidelines.
 
@@ -59,13 +61,13 @@ As you get familiar with the default use case employee, you may want to write yo
 
 As an application user, I want to store employee time sheet for different projects everyday. A single time sheet entry may associate zero or one project.
 
-### Creating the Domain
+### Creating New Domain
 
 To support the above use case, let's create a "EmployeeTimeSheet.cs" domain under the following solution location: 
 
 `Project: Eisk.Domains`
 
-`New file path: EmployeeTimeSheet.cs`
+`New file path: Entities\EmployeeTimeSheet.cs`
 
 	using System;
 	using System.ComponentModel.DataAnnotations;
@@ -83,7 +85,7 @@ To support the above use case, let's create a "EmployeeTimeSheet.cs" domain unde
 
 			public DateTime TimeSheetDate { get; set; }
 
-			public float TimeSheetHours { get; set; }
+			public float LoggedHours { get; set; }
 
 			public string ProjectCode { get; set; }
 
@@ -100,38 +102,38 @@ Add a property as provided below in the following solution location:
 
 	public virtual DbSet<EmployeeTimeSheet> EmployeeTimeSheets { get; set; }
 
-### Add Data Service Class
-
+### Add Service Api
+	
 Add a new class as provided below on the following solution location: 
 
-`Project: Eisk.DataServices.EFCore`
+`Project: Eisk.WebApi`
 
-`New file location: EmployeeTimeSheetDataService.cs`
+`New file location: Controllers\EmployeeTimeSheetsController.cs`
 
-	using Eisk.Core.DataService.EFCore;
-	using Eisk.DataServices.EFCore.DataContext;
-	using Eisk.Domains.Employee;
+	using Microsoft.AspNetCore.Mvc;
 
-	namespace Eisk.DataServices.EFCore
+	namespace Eisk.WebApi.Controllers
 	{
-		public class EmployeeTimeSheetDataService : EntityContextDataService<EmployeeTimeSheet>
-		{
-			public EmployeeTimeSheetDataService(AppDbContext dbContext) : base(dbContext)
-			{
+		using Core.DomainService;
+		using Domains.Entities;
+		using Eisk.Core.WebApi;
 
+		[Route("api/[controller]")]
+		public class EmployeeTimeSheetsController : WebApiControllerBaseAsync<EmployeeTimeSheet,int>
+		{
+			public EmployeeTimeSheetsController(DomainServiceAsync<EmployeeTimeSheet, int> employeeTimeSheetDomainService) :base(employeeTimeSheetDomainService)
+			{
+				
 			}
 		}
 	}
-	
-### Add a Domain Service Class
-	
-Add a new class as provided below on the following solution location: 
 
+### Build & Run Locally 
 
+Similar to Step 3, simply press "Control + F5" to open WebApi project in browser. 
 
+In the Swagger UI you'll notice a new section is available to test the new api we just created for EmployeeTimeSheets.
 
-
- 
-
+Play with the UI to add create, read, update, delete employee time-sheet.
 
 
