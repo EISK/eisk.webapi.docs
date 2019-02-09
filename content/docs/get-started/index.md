@@ -47,13 +47,11 @@ That's it!
 
 After running the created project successfully, you'll get an understanding about how the sample use case has been used to explore cutting edge technologies for building a web api.
 
-Next - you can try some [hands-on experience](https://eisk.github.io/eisk.webapi/docs/get-started/handson-walkthrough.html) by creating your own api on top of your custom entity and see how quickly you can roll out an enterprise quality web api with similar quality and productivity. 
-
-### Documentations
+Next - you can try some hands-on experience by creating your own api on top of your custom entity and see how quickly you can roll out an enterprise quality web api with similar quality and productivity. 
 
 Utilities and code samples as provided in EISK have intentionally been designed to be self explaining. You may still want to get deeper understanding by exploring the documentations:
 
-* [Hands on Walk through](https://eisk.github.io/eisk.webapi/docs/get-started/handson-walkthrough.html)
+* [Hands-on Walk-through](https://eisk.github.io/eisk.webapi/docs/application-development/handson-walkthrough-create-service-api.html)
 * [Logical Layer Architecture](https://eisk.github.io/eisk.webapi/docs/architecture/logical-layers.html)
 * [Technology Stack](https://eisk.github.io/eisk.webapi/docs/technical-reference/technology-stack.html)
 
