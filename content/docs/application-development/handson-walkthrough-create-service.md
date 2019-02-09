@@ -1,7 +1,8 @@
 ---
-uid: eisk-webapi-handson-walkthrough
+uid: eisk-webapi-handson-walkthrough-create-service
 ---
-# Hands on Walkthrough
+
+# Hands-on Walk-through: Create New Service
 
 In this step by step article, you'll be creating a new web api from the scratch. With the utilities and bootstrap code as provided by EISK, you'll realize how easy to create a new web api with Visual Studio and ASP.NET Core.
 
@@ -40,7 +41,7 @@ The index page of the project is basically [Swagger UI](https://docs.microsoft.c
 
 EISK by default provides a simple use case to perform CRUD operation in an employee table in [Domain Driven Development](https://en.wikipedia.org/wiki/Domain-driven_design) fashion.
 
-The Swagger UI shows enables accessing the "Employees" api different http verbs (get, post, put, delete etc) and perform data operations in database encapculated with Entity Framework.
+The Swagger UI enables accessing the "Employees" api different http verbs (get, post, put, delete etc) and perform data operations in database encapculated with Entity Framework.
 
 Invoke the 'Get' call as available in the first options, by considering the following steps:
 
@@ -50,7 +51,7 @@ A json response will be shown under "Server response" section with all employees
 
 You can perform other http verb operations by following the similar steps mentioned above.
 
-## Step 4: Creating an Api with New Use Case
+## Step 4: Creating a New Service
 
 As you get familiar with the default use case employee, you may want to write your own api with a new use case, so see how the EISK has been designed to write web api easily with best coding and architectural guidelines.
 
@@ -60,7 +61,11 @@ As an application user, I want to store employee time sheet for different projec
 
 ### Creating the Domain
 
-To support the above use case, let's create a "EmployeeTimeSheet.cs" domain under the following location: \eisk.webapi\DomainCore\Eisk.Domains\EmployeeTimeSheet.cs
+To support the above use case, let's create a "EmployeeTimeSheet.cs" domain under the following solution location: 
+
+`Project: Eisk.Domains`
+
+`New file path: EmployeeTimeSheet.cs`
 
 	using System;
 	using System.ComponentModel.DataAnnotations;
@@ -87,13 +92,21 @@ To support the above use case, let's create a "EmployeeTimeSheet.cs" domain unde
 
 ### Add Property to Database Context
 
-Add a property as provided below in the following location: \eisk.webapi\DataServices.EFCore\Eisk.DataServices.EFCore\DataContext\AppDbContext.cs
+Add a property as provided below in the following solution location: 
 
-`public virtual DbSet<EmployeeTimeSheet> EmployeeTimeSheets { get; set; }`
+`Project: Eisk.DataServices.EFCore`
+
+`File location: DataContext\AppDbContext.cs`
+
+	public virtual DbSet<EmployeeTimeSheet> EmployeeTimeSheets { get; set; }
 
 ### Add Data Service Class
 
-Add a new class as provided below on the following location: \eisk.webapi\DataServices.EFCore\Eisk.DataServices.EFCore\EmployeeTimeSheetDataService.cs
+Add a new class as provided below on the following solution location: 
+
+`Project: Eisk.DataServices.EFCore`
+
+`New file location: EmployeeTimeSheetDataService.cs`
 
 	using Eisk.Core.DataService.EFCore;
 	using Eisk.DataServices.EFCore.DataContext;
@@ -112,7 +125,7 @@ Add a new class as provided below on the following location: \eisk.webapi\DataSe
 	
 ### Add a Domain Service Class
 	
-Add a new class as provided below on the following location: 
+Add a new class as provided below on the following solution location: 
 
 
 
