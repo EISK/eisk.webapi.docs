@@ -80,13 +80,9 @@ To support the above use case, let's create a "EmployeeTimeSheet.cs" domain unde
 			[Key]
 			[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 			public int Id { get; set; }
-
 			public int EmployeeId { get; set; }
-
 			public DateTime TimeSheetDate { get; set; }
-
 			public float LoggedHours { get; set; }
-
 			public string ProjectCode { get; set; }
 
 		}
