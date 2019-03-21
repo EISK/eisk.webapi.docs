@@ -119,7 +119,7 @@ Add a new class as provided below on the following solution location:
 			:WebApiControllerBase<EmployeeTimeSheet,int>
 		{
 			public EmployeeTimeSheetsController(
-				DomainServiceAsync<EmployeeTimeSheet, int> 
+				DomainService<EmployeeTimeSheet, int> 
 					employeeTimeSheetDomainService)
 						:base(employeeTimeSheetDomainService)
 			{
