@@ -116,7 +116,7 @@ Add a new class as provided below on the following solution location:
 
 		[Route("api/[controller]")]
 		public class EmployeeTimeSheetsController
-			:WebApiControllerBaseAsync<EmployeeTimeSheet,int>
+			:WebApiControllerBase<EmployeeTimeSheet,int>
 		{
 			public EmployeeTimeSheetsController(
 				DomainServiceAsync<EmployeeTimeSheet, int> 
