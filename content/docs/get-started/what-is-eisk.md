@@ -40,7 +40,7 @@ Application frameworks are great for productivity, some of which are unavoidable
 
 On the other hand, having implementation patterns can be useful for developers, as it enables them to adjust application on demand. 
 
-Employee Info Starter Kit provides hundreds of “connected” snippets with optimized solution and implementation patterns to demonstrate problem solutions in actual production environment. 
+EISK provides hundreds of “connected” snippets with optimized solution and implementation patterns to demonstrate problem solutions in actual production environment. 
 
 ### Why EISK is Different?
 
@@ -48,8 +48,8 @@ Software development is one of the rapid growing industries around the globe, wh
 
 While some are great to enable learning new technologies quickly, in most cases they are either too “simple and brief” to be used in real world scenarios or too “complex and detailed” which are typically focused to achieve a product goal (such as CMS, e-Commerce etc) from "end user" perspective and have a long duration learning curve with respect to the corresponding technology. 
 
-Employee Info Starter Kit, as a web project, is basically "developer" oriented which actually considers a hybrid approach as “simple and detailed”, where a simple domain has been considered to intentionally illustrate most of the architectural and implementation challenges faced by web application developers so that anyone can dive into deep into the corresponding new technology or concept quickly.
+EISK, as a web project, is basically "developer" oriented which actually considers a hybrid approach as “simple and detailed”, where a simple domain has been considered to intentionally illustrate most of the architectural and implementation challenges faced by web application developers so that anyone can dive into deep into the corresponding new technology or concept quickly.
 
 ### Utilizing EISK in Real-World Software Development
 
-Learn how EISK can help developers to build robust, scalable & manageable web applications.
+[Learn](https://eisk.github.io/eisk.webapi/docs/application-development/handson-walkthrough-create-service-api.html) how EISK can help developers to build robust, scalable & manageable web applications.
