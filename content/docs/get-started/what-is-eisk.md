@@ -7,7 +7,7 @@ EISK provides a solid guideline for building enterprise level projects, by utili
 
 * Project templates ([VSIX](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.EmployeeInfoStarterKitEISK-MVC), [dotnet new cli](https://www.nuget.org/packages/Eisk.WebApi/))
 * [Utility libraries](https://github.com/EISK/eisk.core) (to facilitate writing minimal code)
-* [Use case samples demonstrating best practices](https://github.com/EISK/eisk.webapi)
+* [Use case samples](https://github.com/EISK/eisk.webapi) demonstrating best practices
 * Architecture and development guideline [documentations](https://eisk.github.io/eisk.webapi/docs/application-development/handson-walkthrough-create-service-api.html).
 
 ### Release History
