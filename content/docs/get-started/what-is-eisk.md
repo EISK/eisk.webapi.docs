@@ -14,7 +14,7 @@ Since its first release, by April 2008, this open source project gained a huge p
 
 This starter kit is honored to be placed at the official ASP.NET site, along with other Asp.Net starter kits, which all are being considered as the “Best” Asp.Net coding standards, recommended by Microsoft. In a weekly show of Microsoft’s [Channel 9](http://channel9.msdn.com/Shows/This+Week+On+Channel+9/TWC9-New-Mix-Sessions-announced-dissecting-IE9-Performance-Azure-Toolkit-for-WP7), it has been appreciated by Microsoft Director Dan Fernandez.
 
-* EISK Web Api @ [nuget] (https://www.nuget.org/packages/Eisk.WebApi/)
+* EISK Web Api @ [NuGet Gallery](https://www.nuget.org/packages/Eisk.WebApi/)
 * EISK MVC @ [Visual Studio Market Place](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.EmployeeInfoStarterKitEISK-MVC)
 * EISK ASP.NET @ [MSDN Code Gallery](https://code.msdn.microsoft.com/eisk)
 
