@@ -8,7 +8,7 @@ EISK provides a solid guideline for building enterprise level projects, by utili
 * Project templates ([VSIX](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.EmployeeInfoStarterKitEISK-MVC), [dotnet new cli](https://www.nuget.org/packages/Eisk.WebApi/))
 * [Utility libraries](https://github.com/EISK/eisk.core) (to facilitate writing minimal code)
 * [Use case samples demonstrating best practices](https://github.com/EISK/eisk.webapi)
-* Architecture and development guideline [documentations](https://eisk.github.io/eisk.webapi/docs/architecture/logical-layers.html).
+* Architecture and development guideline [documentations](https://eisk.github.io/eisk.webapi/docs/application-development/handson-walkthrough-create-service-api.html).
 
 ### Release History
 
@@ -19,15 +19,6 @@ This starter kit is honored to be placed at the official ASP.NET site, along wit
 * EISK Web Api @ [NuGet Gallery](https://www.nuget.org/packages/Eisk.WebApi/)
 * EISK MVC @ [Visual Studio Market Place](https://marketplace.visualstudio.com/items?itemName=AshrafulAlam.EmployeeInfoStarterKitEISK-MVC)
 * EISK ASP.NET @ [MSDN Code Gallery](https://code.msdn.microsoft.com/eisk)
-
-### User Stories
-
-The user end functionalities of this starter kit are pretty simple and straight forward that are focused in to perform CRUD operation on employee records as described below.
-
-* Creating a new employee record
-* Read existing employee record
-* Update an existing employee record
-* Delete existing employee records
 
 ### Key Technology Areas
 
@@ -43,7 +34,7 @@ Employee Info Starter Kit is highly influenced by the concept ‘Pareto Principl
 
 “Productivity” as the architectural objective typically also includes other trade-off factors as well as, such as testability, flexibility, performance etc. Fortunately Microsoft's latest .NET Framework Core and Visual Studio includes lots of great features that have been implemented cleverly in this project to reduce these trade-off factors in the minimum level.
 
-### Why Employee Info Starter Kit is Not a Framework?
+### Why EISK is Not a Framework?
 
 Application frameworks are great for productivity, some of which are unavoidable in this modern age. However relying too many frameworks may overkill a project, as frameworks are typically designed to serve wide range of different usage and are less customizable or editable. 
 
@@ -51,7 +42,7 @@ On the other hand, having implementation patterns can be useful for developers, 
 
 Employee Info Starter Kit provides hundreds of “connected” snippets with optimized solution and implementation patterns to demonstrate problem solutions in actual production environment. 
 
-### Why Employee Info Starter Kit is Different?
+### Why EISK is Different?
 
 Software development is one of the rapid growing industries around the globe, where the technology is being updated very frequently to adapt greater challenges over time. There are literally thousands of community web sites, blogs and forums that are dedicated to provide support to adapt new technologies. 
 
